@@ -3,7 +3,7 @@
 Merge Sort code written in javascript
 
 it's an effecient way for sorting , it's time complexity is O(nlog(n))
---------------------------------------------------------------------------------
+
 # Linked List
 linked list data structure implemented in javascript
 it supports the following methods :
