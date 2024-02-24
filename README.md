@@ -21,7 +21,7 @@ it supports the following methods :
 12) insertAt : which insertes the given value in the given index
 13) removeAt : which removes the element at the given index
 
-#Hash MAP
+# Hash MAP
 Hash Map data structure implemented in javascript
 
 it's used to use strings as index to store data related to this string
