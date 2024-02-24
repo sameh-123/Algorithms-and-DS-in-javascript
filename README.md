@@ -21,4 +21,24 @@ it supports the following methods :
 12) insertAt : which insertes the given value in the given index
 13) removeAt : which removes the element at the given index
 
-    
+#Hash MAP
+Hash Map data structure implemented in javascript
+
+it's used to use strings as index to store data related to this string
+
+it has the following methods:
+1) set : which takes the key and the value that assigned to this key , it updates the value of this
+key if it already has a value
+2) get : which returns the value assigned to the given key or null if there isn't such key in the HashMap
+3) has : which returns whether this key is in the HashMap or not
+4) remove : which deletes the given key with its value from the HashMap
+5) length : which returns the number of the keys used in the HashMap
+6) clear : which deletes all the keys and values from the HashMap
+7) keys : which returns all the keys represented in the HashMap
+8) values : which returns all the values in the HashMap
+9) entries : which returns all the keys with their values in the HashMap
+
+I used the linked list data structure to keep my keys , so you have to include the Linked List file in this repo and export it
+
+i assumed that the maximum size of the Hash Map to be 1000 entries , but it can be modified by updating the value of mod in
+the hash function , but be careful of collisions ! 
