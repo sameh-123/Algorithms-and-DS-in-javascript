@@ -42,3 +42,9 @@ I used the linked list data structure to keep my keys , so you have to include t
 
 i assumed that the maximum size of the Hash Map to be 1000 entries , but it can be modified by updating the value of mod in
 the hash function , but be careful of collisions ! 
+
+# Knight Travails Problem
+this is an effecient solution for finding the shortest path for a knight to move from 
+one cell in a chess board to another in javascript
+
+it does a graph representation for the board using adjacency matrix and used BFS to find the shortes path
