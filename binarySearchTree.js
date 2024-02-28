@@ -103,7 +103,7 @@ class Tree{
     levelOrder(){
         let cur=this.root
         if(cur==null){
-            return
+            return []
         }
         let order=[]
         let q=[]
@@ -218,6 +218,8 @@ class Tree{
     }
     clear(){
         this.clearHelper(this.root)
+        this.root=null
+        this.size=0
     }
     clearHelper(node){
         if(node!=null){
