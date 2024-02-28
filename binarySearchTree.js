@@ -11,8 +11,6 @@ class Tree{
         this.size=0
     }
     buildTree(data){
-        data.sort((a,b)=>a-b)
-        data=data.filter((item,index) => data.indexOf(item) === index);
         let n=data.length
         this.size=n
         this.root=this.buildHelper(data,0,n-1)
@@ -33,7 +31,7 @@ class Tree{
             this.size++
             return
         }
-        if(this.find(value)==null)return
+        if(this.find(value)!=null)return
         this.size++
         this.root=this.insertHelper(value,this.root)
     }
